@@ -1,7 +1,5 @@
 package tasks.taskImpl;
 
-import tasks.Tasks;
-
 import java.util.Random;
 
 /**
@@ -9,7 +7,7 @@ import java.util.Random;
  *     1 - 99. Следует вывести в консоль только те числа которые делятся
  *     на 1-ое рандомное число без остатка.
  *     - Нельзя использовать массив.*/
-public class TaskN1 implements Tasks {
+public class TaskN1 {
 
     public void task(){
         Random random = new Random();

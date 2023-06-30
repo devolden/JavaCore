@@ -1,7 +1,5 @@
 package tasks.taskImpl;
 
-import tasks.Tasks;
-
 import java.util.Random;
 
 /**
@@ -10,7 +8,7 @@ import java.util.Random;
  * наибольшее число.
  * - Нельзя использовать массив
  */
-public class TaskN2 implements Tasks {
+public class TaskN2 {
     public void task() {
         int minNum = 0;
         int maxNum = 0;
