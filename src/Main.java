@@ -1,7 +1,4 @@
-import tasks.taskImpl.TaskN1;
-import tasks.taskImpl.TaskN2;
-import tasks.taskImpl.TaskN3;
-import tasks.taskImpl.TaskN4;
+import tasks.taskImpl.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,8 +9,9 @@ public class Main {
         TaskN3 taskN3 = new TaskN3();
 //        taskN3.task();
         TaskN4 taskN4 = new TaskN4();
-        taskN4.task();
-
+//        taskN4.task();
+        TaskN5 taskN5 = new TaskN5();
+        taskN5.task();
 
 
     }
