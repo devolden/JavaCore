@@ -14,10 +14,12 @@ public class Main {
 //        taskN5.task();
         TaskN6 taskN6 = new TaskN6();
 //        taskN6.task();
-        TaskN7 taskN7 =new TaskN7();
+        TaskN7 taskN7 = new TaskN7();
 //        taskN7.task();
-        TaskN8 taskN8= new TaskN8();
-        taskN8.task();
+        TaskN8 taskN8 = new TaskN8();
+//        taskN8.task();
+        TaskN9 taskN9 = new TaskN9();
+        taskN9.task();
 
     }
 }
