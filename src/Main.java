@@ -15,8 +15,9 @@ public class Main {
         TaskN6 taskN6 = new TaskN6();
 //        taskN6.task();
         TaskN7 taskN7 =new TaskN7();
-        taskN7.task();
-
+//        taskN7.task();
+        TaskN8 taskN8= new TaskN8();
+        taskN8.task();
 
     }
 }
