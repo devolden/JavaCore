@@ -21,6 +21,10 @@ public class Main {
         TaskN9 taskN9 = new TaskN9();
 //        taskN9.task();
         TaskN10 taskN10 = new TaskN10();
-        taskN10.task();
+//        taskN10.task();
+        TaskN11 taskN11 = new TaskN11();
+//        taskN11.task();
+        TaskN12 taskN12 = new TaskN12();
+        taskN12.task(3,new int[]{1,2,3,4,5});
     }
 }
