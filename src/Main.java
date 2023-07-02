@@ -25,6 +25,8 @@ public class Main {
         TaskN11 taskN11 = new TaskN11();
 //        taskN11.task();
         TaskN12 taskN12 = new TaskN12();
-        taskN12.task(3,new int[]{1,2,3,4,5});
+//        taskN12.task(3,new int[]{1,2,3,4,5});
+        TaskN13 taskN13 = new TaskN13();
+//        taskN13.task(new boolean[]{true, false, true});
     }
 }
