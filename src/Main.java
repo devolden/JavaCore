@@ -1,5 +1,7 @@
 import tasks.taskImpl.*;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
         TaskN1 taskN1 = new TaskN1();
@@ -28,5 +30,11 @@ public class Main {
 //        taskN12.task(3,new int[]{1,2,3,4,5});
         TaskN13 taskN13 = new TaskN13();
 //        taskN13.task(new boolean[]{true, false, true});
+        TaskN14 taskN14 = new TaskN14();
+        Random random = new Random();
+        for (int i = 0; i < 10; i++) {
+            int randomNumber = random.nextInt(1,99);
+            taskN14.task(new int[]{randomNumber});
+        }
     }
 }
