@@ -33,17 +33,18 @@ public class Main {
         TaskN13 taskN13 = new TaskN13();
 //        taskN13.task(new boolean[]{true, false, true});
         TaskN14 taskN14 = new TaskN14();
-
 //        for (int i = 0; i < 10; i++) {
 //            int randomNumber = random.nextInt(1,50);
 //            taskN14.task(new int[]{randomNumber});
 //        }
         TaskN15 taskN15 = new TaskN15();
-        int [] ints= new int[20];
-        for (int i = 0; i < ints.length; i++) {
-            int randomNumber = random.nextInt(1,50);
-            ints[i]=randomNumber;
-        }
-        taskN15.task(ints,15);
+//        int [] ints= new int[20];
+//        for (int i = 0; i < ints.length; i++) {
+//            int randomNumber = random.nextInt(1,50);
+//            ints[i]=randomNumber;
+//        }
+//        taskN15.task(ints,15);
+        TaskN16 taskN16 = new TaskN16();
+        System.out.println(taskN16.task(3));
     }
 }
