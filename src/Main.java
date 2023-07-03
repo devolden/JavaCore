@@ -45,6 +45,8 @@ public class Main {
 //        }
 //        taskN15.task(ints,15);
         TaskN16 taskN16 = new TaskN16();
-        System.out.println(taskN16.task(3));
+//        System.out.println(taskN16.task(3));
+        TaskN17 taskN17 = new TaskN17();
+        taskN17.task(new int[]{12,32,53,54,12,53,123,6},3);
     }
 }
